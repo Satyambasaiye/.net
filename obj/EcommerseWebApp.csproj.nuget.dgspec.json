@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\satyam & tushar\\.net\\EcommerseApp\\EcommerseWebApp\\EcommerseWebApp.csproj": {}
+    "D:\\.net\\.net\\EcommerseWebApp.csproj": {}
   },
   "projects": {
-    "E:\\satyam & tushar\\.net\\EcommerseApp\\EcommerseWebApp\\EcommerseWebApp.csproj": {
+    "D:\\.net\\.net\\EcommerseWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\satyam & tushar\\.net\\EcommerseApp\\EcommerseWebApp\\EcommerseWebApp.csproj",
+        "projectUniqueName": "D:\\.net\\.net\\EcommerseWebApp.csproj",
         "projectName": "EcommerseWebApp",
-        "projectPath": "E:\\satyam & tushar\\.net\\EcommerseApp\\EcommerseWebApp\\EcommerseWebApp.csproj",
-        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-        "outputPath": "E:\\satyam & tushar\\.net\\EcommerseApp\\EcommerseWebApp\\obj\\",
+        "projectPath": "D:\\.net\\.net\\EcommerseWebApp.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\.net\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

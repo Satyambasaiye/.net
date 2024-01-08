@@ -12,15 +12,22 @@ public class AuthController : Controller
     {
         this._svc = svc;
     }
-
-
     public IActionResult SignIn()
     {
         return View();
     }
+    [HttpPost]
+    public IActionResult SignIn(string username,string password)
 
+    {
+        _svc.authenticateUser(username,password);
+        return View();
+    }
+    
     public IActionResult Register()
     {
+        Console.WriteLine("in register of auth");
+    
         _svc.authenticateUser("name", "pass");
 
         return View();
@@ -31,13 +38,12 @@ public class AuthController : Controller
         Console.WriteLine("insde register");
         Console.WriteLine(name + " " + email);
         _svc.addUserDetail(name, email, pass);
-        return Json(new { name = name, email = email });
+        return View("SignIn");
     }
     public IActionResult Authenticate()
     {
         _svc.authenticateUser("name", "pass");
-        return null;
+        
+        return View();
     }
-
-
 }

@@ -28,3 +28,34 @@ E:\satyam & tushar\.net\EcommerseApp\EcommerseWebApp\obj\Debug\net8.0\refint\Eco
 E:\satyam & tushar\.net\EcommerseApp\EcommerseWebApp\obj\Debug\net8.0\EcommerseWebApp.pdb
 E:\satyam & tushar\.net\EcommerseApp\EcommerseWebApp\obj\Debug\net8.0\EcommerseWebApp.genruntimeconfig.cache
 E:\satyam & tushar\.net\EcommerseApp\EcommerseWebApp\obj\Debug\net8.0\ref\EcommerseWebApp.dll
+D:\.net\.net\bin\Debug\net8.0\appsettings.Development.json
+D:\.net\.net\bin\Debug\net8.0\appsettings.json
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.staticwebassets.runtime.json
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.exe
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.deps.json
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.runtimeconfig.json
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.dll
+D:\.net\.net\bin\Debug\net8.0\EcommerseWebApp.pdb
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.AssemblyInfoInputs.cache
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.AssemblyInfo.cs
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.csproj.CoreCompileInputs.cache
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.RazorAssemblyInfo.cache
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.RazorAssemblyInfo.cs
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.sourcelink.json
+D:\.net\.net\obj\Debug\net8.0\staticwebassets.build.json
+D:\.net\.net\obj\Debug\net8.0\staticwebassets.development.json
+D:\.net\.net\obj\Debug\net8.0\staticwebassets\msbuild.EcommerseWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.net\.net\obj\Debug\net8.0\staticwebassets\msbuild.build.EcommerseWebApp.props
+D:\.net\.net\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcommerseWebApp.props
+D:\.net\.net\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcommerseWebApp.props
+D:\.net\.net\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.net\.net\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\.net\.net\obj\Debug\net8.0\scopedcss\bundle\EcommerseWebApp.styles.css
+D:\.net\.net\obj\Debug\net8.0\scopedcss\projectbundle\EcommerseWebApp.bundle.scp.css
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.dll
+D:\.net\.net\obj\Debug\net8.0\refint\EcommerseWebApp.dll
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.pdb
+D:\.net\.net\obj\Debug\net8.0\EcommerseWebApp.genruntimeconfig.cache
+D:\.net\.net\obj\Debug\net8.0\ref\EcommerseWebApp.dll
