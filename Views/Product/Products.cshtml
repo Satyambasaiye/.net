@@ -1,0 +1,10 @@
+@using store.Entities;
+
+<h1> product details</h1>
+@{
+    List<Product> products=Model;
+        foreach(Product p in products)
+        {
+            <p>@p.ToString()</p>
+        }
+}

@@ -13,7 +13,7 @@ public class AuthService : IauthServices
     }
     public string authenticateUser(string name, string pass)
     {
-        reg.authenticateUser(name,pass);
+        // reg.authenticateUser(name,pass);
         return "hello";
     }
 

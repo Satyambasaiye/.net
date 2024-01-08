@@ -2,11 +2,11 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EcommerseWebApp.Models;
 
-namespace EcommerseWebApp.Controllers;
+namespace store.Controllers;
 
 public class HomeController : Controller
 {
-    
+
 
     public IActionResult Index()
     {

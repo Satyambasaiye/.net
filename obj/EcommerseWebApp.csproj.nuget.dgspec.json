@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net\\.net\\EcommerseWebApp.csproj": {}
+    "E:\\satyam & tushar\\.net\\Ecommerse\\.net\\EcommerseWebApp.csproj": {}
   },
   "projects": {
-    "D:\\.net\\.net\\EcommerseWebApp.csproj": {
+    "E:\\satyam & tushar\\.net\\Ecommerse\\.net\\EcommerseWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\.net\\EcommerseWebApp.csproj",
+        "projectUniqueName": "E:\\satyam & tushar\\.net\\Ecommerse\\.net\\EcommerseWebApp.csproj",
         "projectName": "EcommerseWebApp",
-        "projectPath": "D:\\.net\\.net\\EcommerseWebApp.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\.net\\obj\\",
+        "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\.net\\EcommerseWebApp.csproj",
+        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
+        "outputPath": "E:\\satyam & tushar\\.net\\Ecommerse\\.net\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

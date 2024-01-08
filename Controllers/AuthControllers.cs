@@ -3,11 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using EcommerseWebApp.Models;
 using store.services;
 
-namespace EcommerseWebApp.Controllers;
+namespace store.Controllers;
 
 public class AuthController : Controller
 {
     private readonly IauthServices _svc;
+
     public AuthController(IauthServices svc)
     {
         this._svc = svc;
@@ -17,17 +18,17 @@ public class AuthController : Controller
         return View();
     }
     [HttpPost]
-    public IActionResult SignIn(string username,string password)
+    public IActionResult SignIn(string username, string password)
 
     {
-        _svc.authenticateUser(username,password);
+        _svc.authenticateUser(username, password);
         return View();
     }
-    
+
     public IActionResult Register()
     {
         Console.WriteLine("in register of auth");
-    
+
         _svc.authenticateUser("name", "pass");
 
         return View();
@@ -43,7 +44,7 @@ public class AuthController : Controller
     public IActionResult Authenticate()
     {
         _svc.authenticateUser("name", "pass");
-        
+
         return View();
     }
 }
