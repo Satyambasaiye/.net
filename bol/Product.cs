@@ -3,7 +3,6 @@ namespace BOL;
 
 public class Product
 {
-    public Product() { }
     public Product(int id, string name, int qty, string details)
     {
         this.id = id;

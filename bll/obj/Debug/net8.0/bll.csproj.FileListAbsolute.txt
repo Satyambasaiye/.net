@@ -9,9 +9,3 @@ E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.dll
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\refint\bll.dll
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.pdb
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\ref\bll.dll
-E:\satyam & tushar\.net\Ecommerse\bll\bin\Debug\net8.0\bol.dll
-E:\satyam & tushar\.net\Ecommerse\bll\bin\Debug\net8.0\dal.dll
-E:\satyam & tushar\.net\Ecommerse\bll\bin\Debug\net8.0\dal.pdb
-E:\satyam & tushar\.net\Ecommerse\bll\bin\Debug\net8.0\bol.pdb
-E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.csproj.AssemblyReference.cache
-E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.csproj.CopyComplete

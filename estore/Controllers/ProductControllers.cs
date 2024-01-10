@@ -24,12 +24,5 @@ public class ProductController : Controller
 
         return View(products);
     }
-    [HttpGet]
-    public IActionResult Insert(int id)
 
-    {
-        _psvc.get
-
-        return View();
-    }
 }
