@@ -7,7 +7,7 @@ public class MySqlRepository
     {
         List<Product> products = new List<Product>();
         MySqlConnection con = new MySqlConnection();
-        con.ConnectionString = @"server=localhost; port=3306; user=root password=root123; database=dotnet";
+        con.ConnectionString = @"server=localhost; port=3306; user=root; password=root123; database=dotnet";
         MySqlCommand cmd = new MySqlCommand();
         cmd.Connection = con;
         cmd.CommandText = "select * from product";
@@ -19,9 +19,9 @@ public class MySqlRepository
             {
                 int id = int.Parse(reader["id"].ToString());
                 string? name = reader["name"].ToString();
-                int Quantity = int.Parse(reader["quantity"].ToString());
+                int quantity = int.Parse(reader["quantity"].ToString());
                 string details = reader["details"].ToString();
-                Product p = new Product(id, name, Quantity, details);
+                Product p = new Product(id, name, quantity, details);
                 products.Add(p);
             }
 

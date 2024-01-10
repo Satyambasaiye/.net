@@ -1,14 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
+using store.Entities;
 using store.services;
+using System.Collections.Generic;
 
 namespace store.Controllers;
-public class ProductControllers : Controller
+public class ProductController : Controller
 {
 
     private readonly IProductServices _psvc;
 
 
-    public ProductControllers(IProductServices svc)
+    public ProductController(IProductServices svc)
     {
         this._psvc = svc;
     }
@@ -16,9 +18,11 @@ public class ProductControllers : Controller
     public IActionResult Products()
     {
         Console.WriteLine("in products");
+        List<Product> products=_psvc.GetAll();
 
 
-        return View();
+
+        return View(products);
     }
 
 }

@@ -5,12 +5,12 @@ public class Product
     {
         this.id = id;
         this.name = name;
-        this.Quantity = qty;
+        this.quantity = qty;
         this.details = details;
     }
     public int id { get; set; }
     public string name { get; set; }
-    public int Quantity { get; set; }
+    public int quantity { get; set; }
     public string details { get; set; }
     public override string ToString()
     {
