@@ -1,0 +1,17 @@
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\sal.deps.json
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\sal.dll
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\sal.pdb
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.GeneratedMSBuildEditorConfig.editorconfig
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.AssemblyInfoInputs.cache
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.AssemblyInfo.cs
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.csproj.CoreCompileInputs.cache
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.dll
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\refint\sal.dll
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.pdb
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\ref\sal.dll
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\bol.dll
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\dal.dll
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\bol.pdb
+E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\dal.pdb
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.csproj.AssemblyReference.cache
+E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.csproj.CopyComplete

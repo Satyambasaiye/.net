@@ -1,0 +1,11 @@
+E:\satyam & tushar\.net\Ecommerse\bol\bin\Debug\net8.0\bol.deps.json
+E:\satyam & tushar\.net\Ecommerse\bol\bin\Debug\net8.0\bol.dll
+E:\satyam & tushar\.net\Ecommerse\bol\bin\Debug\net8.0\bol.pdb
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.GeneratedMSBuildEditorConfig.editorconfig
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.AssemblyInfoInputs.cache
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.AssemblyInfo.cs
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.csproj.CoreCompileInputs.cache
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.dll
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\refint\bol.dll
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.pdb
+E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\ref\bol.dll
