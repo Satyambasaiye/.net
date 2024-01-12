@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dac\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj",
+      "projectUniqueName": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj",
       "projectName": "bol",
-      "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj",
-      "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-      "outputPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\obj\\",
+      "projectPath": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\.net\\ecommerse solution\\.net\\bol\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

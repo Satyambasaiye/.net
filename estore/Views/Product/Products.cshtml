@@ -51,9 +51,9 @@
                     @p.details
                 </td>
                 <td>
-                    <button type="button" class="btn btn-primary" value="@p.id" onclick="/product/Insert" name="insert">Insert</button>
-<button type="button" class="btn btn-primary" name="delete">delete</button>
-<button type="button" class="btn btn-primary" name="update">Update</button>
+        <button type="button" class="btn btn-primary" onclick="window.location.href='/product/details/@p.id'">Details</button>
+
+ <button type="button" class="btn btn-primary" onclick="window.location.href='/product/delete/@p.id'" name="delete">delete</button><button type="button" class="btn btn-primary" name="update">Update</button>
 
                 </td>
                 
@@ -61,5 +61,9 @@
                 </tbody>
             }}
         </table>
+        <script>
+            document.getElementById("details").onclick()
+
+        </script>
     }
 }

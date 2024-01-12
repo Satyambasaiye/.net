@@ -9,3 +9,21 @@ E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.dll
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\refint\bll.dll
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\bll.pdb
 E:\satyam & tushar\.net\Ecommerse\bll\obj\Debug\net8.0\ref\bll.dll
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\bll.deps.json
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\bll.dll
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\bll.pdb
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\bol.dll
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\dal.dll
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\dal.pdb
+D:\.net\ecommerse solution\.net\bll\bin\Debug\net8.0\bol.pdb
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.csproj.AssemblyReference.cache
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.AssemblyInfoInputs.cache
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.AssemblyInfo.cs
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.csproj.CoreCompileInputs.cache
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.sourcelink.json
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.csproj.CopyComplete
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.dll
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\refint\bll.dll
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\bll.pdb
+D:\.net\ecommerse solution\.net\bll\obj\Debug\net8.0\ref\bll.dll

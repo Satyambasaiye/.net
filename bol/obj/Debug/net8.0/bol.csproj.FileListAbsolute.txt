@@ -9,3 +9,15 @@ E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.dll
 E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\refint\bol.dll
 E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\bol.pdb
 E:\satyam & tushar\.net\Ecommerse\bol\obj\Debug\net8.0\ref\bol.dll
+D:\.net\ecommerse solution\.net\bol\bin\Debug\net8.0\bol.deps.json
+D:\.net\ecommerse solution\.net\bol\bin\Debug\net8.0\bol.dll
+D:\.net\ecommerse solution\.net\bol\bin\Debug\net8.0\bol.pdb
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.AssemblyInfoInputs.cache
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.AssemblyInfo.cs
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.csproj.CoreCompileInputs.cache
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.sourcelink.json
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.dll
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\refint\bol.dll
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\bol.pdb
+D:\.net\ecommerse solution\.net\bol\obj\Debug\net8.0\ref\bol.dll

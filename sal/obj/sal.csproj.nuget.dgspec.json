@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\satyam & tushar\\.net\\Ecommerse\\sal\\sal.csproj": {}
+    "D:\\.net\\ecommerse solution\\.net\\sal\\sal.csproj": {}
   },
   "projects": {
-    "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj": {
+    "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj",
+        "projectUniqueName": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj",
         "projectName": "bol",
-        "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj",
-        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-        "outputPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\obj\\",
+        "projectPath": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\ecommerse solution\\.net\\bol\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,21 +59,17 @@
         }
       }
     },
-    "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\dal.csproj": {
+    "D:\\.net\\ecommerse solution\\.net\\dal\\dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\dal.csproj",
+        "projectUniqueName": "D:\\.net\\ecommerse solution\\.net\\dal\\dal.csproj",
         "projectName": "dal",
-        "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\dal.csproj",
-        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-        "outputPath": "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\obj\\",
+        "projectPath": "D:\\.net\\ecommerse solution\\.net\\dal\\dal.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\ecommerse solution\\.net\\dal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,8 +83,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj": {
-                "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj"
+              "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj": {
+                "projectPath": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj"
               }
             }
           }
@@ -132,21 +124,17 @@
         }
       }
     },
-    "E:\\satyam & tushar\\.net\\Ecommerse\\sal\\sal.csproj": {
+    "D:\\.net\\ecommerse solution\\.net\\sal\\sal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\satyam & tushar\\.net\\Ecommerse\\sal\\sal.csproj",
+        "projectUniqueName": "D:\\.net\\ecommerse solution\\.net\\sal\\sal.csproj",
         "projectName": "sal",
-        "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\sal\\sal.csproj",
-        "packagesPath": "C:\\Users\\dac\\.nuget\\packages\\",
-        "outputPath": "E:\\satyam & tushar\\.net\\Ecommerse\\sal\\obj\\",
+        "projectPath": "D:\\.net\\ecommerse solution\\.net\\sal\\sal.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\.net\\ecommerse solution\\.net\\sal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,11 +148,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj": {
-                "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\bol\\bol.csproj"
+              "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj": {
+                "projectPath": "D:\\.net\\ecommerse solution\\.net\\bol\\bol.csproj"
               },
-              "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\dal.csproj": {
-                "projectPath": "E:\\satyam & tushar\\.net\\Ecommerse\\dal\\dal.csproj"
+              "D:\\.net\\ecommerse solution\\.net\\dal\\dal.csproj": {
+                "projectPath": "D:\\.net\\ecommerse solution\\.net\\dal\\dal.csproj"
               }
             }
           }

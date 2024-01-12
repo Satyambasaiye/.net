@@ -1,0 +1,42 @@
+ <table class="table table-sm table">
+            <thead>
+        <tr>
+
+            <th>
+                id
+            </th>
+            <th>
+                name
+            </th>
+            <th>
+                quantity
+            </th>
+            <th>
+                details
+            </th>
+            <th>
+                operation
+            </th>
+        </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        @Model.id
+                    </td>
+                    <td>
+                        @Model.name
+                    </td>
+                    <td>
+                        @Model.quantity
+                    </td>
+                    <td>
+                        @Model.details
+                    </td>
+                    <td>           
+    <button type="button" class="btn btn-primary" onclick="window.location.href='/product/delete/@Model.id'" name="delete">delete</button>
+    <button type="button" class="btn btn-primary" name="Edit">Edit</button>
+                    </td>
+                </tr>
+            </tbody>
+ </table>

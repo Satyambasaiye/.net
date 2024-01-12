@@ -15,3 +15,21 @@ E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\bol.pdb
 E:\satyam & tushar\.net\Ecommerse\sal\bin\Debug\net8.0\dal.pdb
 E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.csproj.AssemblyReference.cache
 E:\satyam & tushar\.net\Ecommerse\sal\obj\Debug\net8.0\sal.csproj.CopyComplete
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\sal.deps.json
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\sal.dll
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\sal.pdb
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\bol.dll
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\dal.dll
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\bol.pdb
+D:\.net\ecommerse solution\.net\sal\bin\Debug\net8.0\dal.pdb
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.csproj.AssemblyReference.cache
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.AssemblyInfoInputs.cache
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.AssemblyInfo.cs
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.csproj.CoreCompileInputs.cache
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.sourcelink.json
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.csproj.CopyComplete
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.dll
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\refint\sal.dll
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\sal.pdb
+D:\.net\ecommerse solution\.net\sal\obj\Debug\net8.0\ref\sal.dll

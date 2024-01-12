@@ -1,12 +1,53 @@
 ﻿using System.Data;
+using System.Data.Common;
 using BOL;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Relational;
 
 namespace DAL.DisConnected;
 
 public class MySqlDBManager
 {
     public MySqlDBManager() { }
+    public bool DeleteById( int id)
+    {
+         bool deleted=false;
+        MySqlConnection con=new MySqlConnection();
+        con.ConnectionString=@"server=localhost; port=3306; user=root; password=root123;database=dotnet";
+        MySqlCommand cmd=new MySqlCommand();
+        cmd.Connection=con;
+        cmd.CommandText="select * from Product";
+        try{
+             DataRow deleteRow=null;
+            DataSet ds=new DataSet();
+            MySqlDataAdapter da=new MySqlDataAdapter(cmd);
+            MySqlCommandBuilder builder =new MySqlCommandBuilder(da);
+            da.Fill(ds);
+            DataTable dtProducts=ds.Tables[0];
+            DataRowCollection rows=dtProducts.Rows;
+            foreach(DataRow row in rows)
+            {
+                if(int.Parse(row["id"].ToString())==id)
+                {
+                deleteRow=row;
+                Console.WriteLine("row inside if =:"+deleteRow["name"]);
+                    break;
+                }
+            }
+            Console.WriteLine("row =:"+deleteRow["name"]);
+             rows.Remove(deleteRow);
+            //deleteRow.Delete();
+            da.Update(ds);
+            
+            return deleted;
+            
+        }catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return deleted;
+        }
+    }
+
     public List<Product> GetAll()
     {
         List<Product> products = new List<Product>();
@@ -41,7 +82,6 @@ public class MySqlDBManager
         }
         return products;
     }
-
     public Product getById(int id)
     {
         DataSet ds = new DataSet();
@@ -64,134 +104,21 @@ public class MySqlDBManager
             {
                 if (int.Parse(row["id"].ToString()) == id)
                 {
-
+                    prod.id=int.Parse(row["id"].ToString());
+                    prod.name=row["name"].ToString();
+                    prod.quantity=int.Parse(row["quantity"].ToString());
+                    prod.details=row["details"].ToString();
                 }
             }
-
 
         }
         catch (Exception e)
         {
-            Console.WriteLine(e.Message);
+            
+            Console.WriteLine("exception in dbmanger !!!!"+e.Message);
         }
-
-
-
+                    return prod;
     }
 
-
-
-
-
-
-
-
-
-    // public Product GetById(int id)
-    // {
-    //     Product prod = new Product();
-    //     bool status = false;
-    //     //Insert disconnected code to be written
-    //     List<Product> employees = new List<Product>();
-    //     MySqlConnection con = new MySqlConnection();
-    //     con.ConnectionString = @"server=localhost; port=3306; user=root; password=password; database=transflower";
-    //     MySqlCommand cmd = new MySqlCommand();
-    //     cmd.Connection = con;
-    //     cmd.CommandText = "SELECT * from employees";
-    //     try
-    //     {
-    //         DataSet ds = new DataSet();
-    //         MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-    //         MySqlCommandBuilder builder = new MySqlCommandBuilder(da);
-    //         da.Fill(ds);
-    //         DataTable dtProducts = ds.Tables[0];
-    //         DataRowCollection rows = dtProducts.Rows;
-    //         DataRow[] foundRows = dtProducts.Select("Id =" + id); //*******
-    //         Console.WriteLine("Found " + foundRows.Length);
-    //         DataRow theRow = foundRows[0];
-    //         Console.WriteLine(theRow["id"].ToString() + " " + theRow["firstName"].ToString());
-    //         prod.Id = int.Parse(theRow["id"].ToString());
-    //         prod.FirstName = theRow["firstName"].ToString();
-    //         prod.LastName = theRow["lastName"].ToString();
-    //         prod.Address = theRow["email"].ToString();
-    //         prod.Email = theRow["email"].ToString();
-    //     }
-    //     catch (Exception e)
-    //     {
-    //         Console.WriteLine(e.Message);
-    //     }
-    //     return prod;
-    // }
-    // public bool Insert(Product prod)
-    // {
-    //     bool status = false;
-    //     //Insert disconnected code to be written
-    //     List<Product> employees = new List<Product>();
-    //     MySqlConnection con = new MySqlConnection();
-    //     con.ConnectionString = @"server=localhost; port=3306; user=root; password=password; database=transflower";
-    //     MySqlCommand cmd = new MySqlCommand();
-    //     cmd.Connection = con;
-    //     cmd.CommandText = "SELECT * from employees";
-    //     try
-    //     {
-    //         DataSet ds = new DataSet();
-    //         MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-    //         MySqlCommandBuilder builder = new MySqlCommandBuilder(da);
-    //         da.Fill(ds);
-    //         DataTable dtProducts = ds.Tables[0];
-    //         DataRowCollection rows = dtProducts.Rows;
-    //         DataRow row = dtProducts.NewRow();
-    //         row["firstName"] = prod.FirstName;
-    //         row["lastName"] = prod.LastName;
-    //         row["email"] = prod.Email;
-    //         row["address"] = prod.Address;
-    //         rows.Add(row);
-    //         da.Update(ds);
-    //     }
-    //     catch (Exception e)
-    //     {
-    //         Console.WriteLine(e.Message);
-    //     }
-    //     return status;
-    // }
-
-    // public bool Update(Product prod)
-    // {
-    //     bool status = false;
-    //     //Insert disconnected code to be written
-    //     return status;
-    // }
-    // public bool Delete(Product prod)
-    // {
-    //     bool status = false;
-    //     //Insert disconnected code to be written
-    //     List<Product> employees = new List<Product>();
-    //     MySqlConnection con = new MySqlConnection();
-    //     con.ConnectionString = @"server=localhost; port=3306; user=root; password=password; database=transflower";
-    //     MySqlCommand cmd = new MySqlCommand();
-    //     cmd.Connection = con;
-    //     cmd.CommandText = "SELECT * from employees";
-    //     try
-    //     {
-    //         DataSet ds = new DataSet();
-    //         MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-    //         MySqlCommandBuilder builder = new MySqlCommandBuilder(da);
-    //         da.Fill(ds);
-    //         DataTable dtProducts = ds.Tables[0];
-    //         DataRowCollection rows = dtProducts.Rows;
-    //         DataRow[] foundRows = dtProducts.Select("Id =" + prod.Id); //*******
-    //         Console.WriteLine("Found " + foundRows.Length);
-    //         DataRow theRow = foundRows[0];
-    //         Console.WriteLine(theRow["id"].ToString() + " " + theRow["firstName"].ToString());
-    //         //rows.Remove(theRow);
-    //         rows.RemoveAt(2);
-    //         da.Update(ds);
-    //     }
-    //     catch (Exception e)
-    //     {
-    //         Console.WriteLine(e.Message);
-    //     }
-    //     return status;
-    // }
-
+  
 }
